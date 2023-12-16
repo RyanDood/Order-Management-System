@@ -3,7 +3,7 @@ using Order_Management_System.exception;
 
 namespace Order_Management_System.dao
 {
-    internal class ServiceRepository
+    internal class ServiceRepository:IServiceRepository
     {
         IOrderManagementRepository orderManagementRepository = new OrderManagementRepository();
 

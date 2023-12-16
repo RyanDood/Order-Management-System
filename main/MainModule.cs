@@ -9,7 +9,7 @@ namespace Order_Management_System.main
 {
     internal class MainModule
     {
-        ServiceRepository repository = new ServiceRepository();
+        IServiceRepository repository = new ServiceRepository();
 
         public void dashboard()
         {
